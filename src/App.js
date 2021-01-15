@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from './components/Card/card'
+import {useState} from 'react'
+import {bubbleSort} from './Algorithms/Sorting/bubbleSort'
 
 function App() {
+
+  const array = [10,20,10,25,9,5,28]
+  const [arr, setArr] = useState(array);
+
+  const updateArrayState = (arr)=>{
+
+    bubbleSort(arr);
+    setArr([...arr])
+  }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="container">
+      <Card arr={arr}/>
+      <button onClick={()=>updateArrayState(arr)}>  update</button>
     </div>
-  );
+
+    
+
+  )
 }
 
 export default App;

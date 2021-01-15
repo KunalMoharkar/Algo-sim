@@ -1,0 +1,8 @@
+
+.algo-card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
