@@ -1,8 +1,37 @@
 
 .algo-card{
     display: flex;
+    flex-direction: column;
+    background-color:#101218;
+    box-shadow: 3px 3px 20px black;
+    border-radius: 5px 5px 5px 5px;
+    width: max-content;
     align-items: flex-end;
     justify-content: center;
     padding: 20px;
     margin: 10px;
+}
+
+.bars-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.algo-card-header{
+    padding: 10px;
+    color: #b3bfd6;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.algo-card-footer{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
 }

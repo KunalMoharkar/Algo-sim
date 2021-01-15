@@ -1,6 +1,6 @@
 
 
-export const bubbleSort = (arr)=>{
+export const bubbleSort = (arr, update)=>{
 
     for(let i=0;i<arr.length-1;i++)
     {
@@ -10,5 +10,7 @@ export const bubbleSort = (arr)=>{
             arr[i] = arr[i+1]
             arr[i+1] = temp
         }
+
+        update(arr)
     }
 }

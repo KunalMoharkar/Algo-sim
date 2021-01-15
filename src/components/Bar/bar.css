@@ -1,5 +1,10 @@
 .bar{
-    background-color: brown;
+    background-color:#5a9aa8;
+    width: 30px;
+    padding: 3px;
     margin-left: 5px;
+    text-align: center;
     margin-right: 3px;
+    font-weight: 700;
+    color: white;
 }

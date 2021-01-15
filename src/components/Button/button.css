@@ -1,0 +1,29 @@
+
+
+.btn-hover{
+    background-color:#e42b5a;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    display: block;
+    padding: 6px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #e42b5a;
+    outline: none;
+    transition-timing-function: ease;
+    transition-duration: 300ms;
+}
+
+.btn-hover:hover{
+    outline: none;
+    background-color: black;
+}
+
+.btn-hover:focus{
+    outline: none;
+}
