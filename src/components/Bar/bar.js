@@ -5,7 +5,7 @@ const Bar = (props) =>{
 
     return(
 
-        <div className="bar" style={{height:props.height*10}}>
+        <div className="bar" style={{height:props.height*7}}>
             {props.height}
         </div>
     )

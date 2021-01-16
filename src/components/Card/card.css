@@ -5,11 +5,18 @@
     background-color:#101218;
     box-shadow: 3px 3px 20px black;
     border-radius: 5px 5px 5px 5px;
-    width: max-content;
-    align-items: flex-end;
+    width: 100%;
+    align-items: center;
     justify-content: center;
     padding: 20px;
     margin: 10px;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.algo-card:hover{
+    box-shadow: 3px 3px 30px black;
+    transform: scale(1.009);
 }
 
 .bars-container{

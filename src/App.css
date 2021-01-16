@@ -1,1 +1,22 @@
 
+.container{
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.algo-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-panel{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around
+}

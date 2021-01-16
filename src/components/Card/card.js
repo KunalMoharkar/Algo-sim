@@ -1,6 +1,6 @@
 import './card.css'
 import Bar from '../Bar/bar'
-import Button from '../Button/button'
+
 
 
 const Card = (props)=>{
