@@ -5,9 +5,9 @@ import {bubbleSort} from './Algorithms/Sorting/bubbleSort'
 import './App.css'
 import { isSorted } from './Algorithms/isSorted'
 
-function App() {
+const App = ()=>{
 
-  const array = [10,20,10,25,9,5,28,50,45]
+  const array = [10,20,10,25,9,5,28,,45]
   const [arr, setArr] = useState(array)
   const [sorted, setSorted] = useState(false)
 
