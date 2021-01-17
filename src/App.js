@@ -7,7 +7,7 @@ import { isSorted } from './Algorithms/isSorted'
 
 const App = ()=>{
 
-  const array = [10,20,10,25,9,5,28,,45]
+  const array = [10,20,10,25,45,9,5,28]
   const [arr, setArr] = useState(array)
   const [sorted, setSorted] = useState(false)
 

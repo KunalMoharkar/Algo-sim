@@ -1,0 +1,25 @@
+
+.image-container{
+    width: 100%;    
+    object-fit: cover;
+    object-position: center;
+    height: 70vh;
+
+}
+
+.image-container img{
+    width: 100%;
+    object-fit: cover;
+    height: 70vh;
+    
+}
+
+.category-card{
+    background-color: #101218;
+    padding: 20px;
+    margin: 10px;
+}
+
+.category-card h3{
+    color: #b3bfd6;
+}

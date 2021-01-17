@@ -1,0 +1,33 @@
+
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.list-algo-name-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #101218;
+    box-shadow: 3px 3px 20px black;
+    padding: 30px;
+    margin: 20px;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.list-algo-name-card:hover{
+    box-shadow: 3px 3px 30px black;
+    transform: scale(1.01);
+}
+
+.list-algo-name-card span{
+    color: #5a9aa8;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
