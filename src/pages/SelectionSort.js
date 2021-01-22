@@ -1,11 +1,11 @@
-import Card from './components/Card/card'
-import Button from './components/Button/button'
+import Card from '../components/Card/card'
+import Button from '../components/Button/button'
 import {useState} from 'react'
-import {bubbleSort} from './Algorithms/Sorting/bubbleSort'
-import './App.css'
-import { isSorted } from './Algorithms/isSorted'
+import {selectionSort} from '../Algorithms/Sorting/selectionSort'
+import '../App.css'
+import { isSorted } from '../Algorithms/isSorted'
 
-const App = ()=>{
+const SelectionSort = ()=>{
 
   const array = [10,20,10,25,45,9,5,28]
   const [arr, setArr] = useState(array)
@@ -17,7 +17,7 @@ const App = ()=>{
 
   const step = (arr)=>{
 
-    bubbleSort(arr, update)
+    selectionSort(arr, update)
     
     if(isSorted(arr))
     {
@@ -29,7 +29,7 @@ const App = ()=>{
   const start = (arr)=>{
 
     setInterval(
-      () => bubbleSort(arr, update), 
+      () => selectionSort(arr, update), 
       300
     )
   }
@@ -39,7 +39,7 @@ const App = ()=>{
 
     <div className="container">
       <div className="algo-container">
-        <Card arr={arr} heading="Bubble Sort"/>
+        <Card arr={arr} heading="Selection Sort"/>
         <div className="control-panel">
         <Button handler={()=>start(arr)} text="Start"/>
         <Button handler={()=>step(arr)} text="Step"/>
@@ -55,4 +55,4 @@ const App = ()=>{
   )
 }
 
-export default App;
+export default SelectionSort;
