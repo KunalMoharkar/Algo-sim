@@ -8,7 +8,7 @@ Bubble Sort
 Insertion Sort
 Selection Sort
 
-##Features
+## Features
 
 Visualization is available in both simulate(auto stepping) and step(one step at a time) mode.
 
