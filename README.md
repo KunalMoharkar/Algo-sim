@@ -1,6 +1,6 @@
 # Algo-Sim 
 
-This project is an attempt to simulate common algorithms for better their understanding. 
+This project is an attempt to simulate common algorithms for their better understanding. 
 
 ## Algorithms simulated
 
