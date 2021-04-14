@@ -1,3 +1,23 @@
+# Algo-Sim 
+
+This project is an attempt to simulate common algorithms for better their understanding. 
+
+## Algorithms simulated
+
+Bubble Sort
+Insertion Sort
+Selection Sort
+
+##Features
+
+Visualization is available in both simulate(auto stepping) and step(one step at a time) mode.
+
+## TODO
+1. add more sorting algorithms
+2. Graph algorithms
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
